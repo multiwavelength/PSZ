@@ -1,2 +1,3 @@
-# PSZ
-Finding X-ray discontinuities in the PSZ2 G181.06+48.47 galaxy cluster
+# Finding X-ray discontinuities in the PSZ2 G181.06+48.47 galaxy cluster
+
+This repository contains the scripts necessary to reproduce the surface brightness analysis of the *XMM-Newton* and *Chandra* data of the **PSZ2 G181.06+48.47** cluster from the paper [PSZ2 G181.06+48.47 I: X-ray exploration of a low-mass cluster with exceptionally-distant radio relics (Stroe et al. 2025)](https://iopscience.iop.org/article/10.3847/1538-4357/adb731). The code to produce a range of unsharp masked and GGM filtered images is included, which served as a first pass in detecting the locations of possible discontinuities. This was followed by a surface brightness analysis using [`pyproffit`](https://github.com/domeckert/pyproffit), where power-law, broken power-law and beta models are fit to a range of sectors. This repository can be seen as a tutorial and could be used as a starting point for analyses of other galaxy cluster datasets.
